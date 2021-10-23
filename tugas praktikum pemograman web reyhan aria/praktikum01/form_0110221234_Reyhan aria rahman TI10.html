@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM PIZZA</title>
+</head>
+<body background="pizza6.jpg">
+<form>
+    <p><b>BLACK GOOSE BISTRO I PIZZA-ON-Demand</b></p>
+    <br>
+<p>our 12" wood-fired pizzas are available for delivery.Build your custom pizza and we'll delivery it within an hour</p>
+<br>
+<fieldset>
+<legend>YOUR INFORMATION</legend>
+    <div>
+    <label>NAME :</label>
+    <input type="text" name="NAME"
+        value="" size="20"/>
+    </div>
+    <div><label>ADDRESS :</label>
+    <input type="text" name="address"
+        value="" size="20"/>
+    </div>
+    <div>
+    <label>NUMBER PHONE: </label>
+    <input type="text" name="NUMBER PHONE"
+        value="" size="20"/>    
+    </div>
+    <div>
+     <label>EMAIL :</label>   
+     <input type="email" name="EMAIL"
+     value="" size="20"/>
+    </div>
+    <div>
+     <label>DELIVERY INSTRUCTION : </label><br>
+     <textarea name="DELIVERY INSTRUCTION" ></textarea>
+    </div>
+</fieldset>
+    <br>
+    <h3>DESIGN YOUR DREAM PIZZA </h3>
+    <p>Pizza specs</p>
+<fieldset>
+    <legend>Crust (choose one) :</legend>
+    <div>
+        <ul>
+          <li><input type="radio" name="pizza specs" value="classic white">classic white</li> 
+          <li><input type="radio" name="pizza specs" value="multi grain">multi grain</li>
+          <li><input type="radio" name="pizza specs" value="cheese-stufferd Crust">cheese-stufferd Crust</li>
+          <li><input type="radio" name="pizza specs" value="gluten-free">gluten-free</li>
+        </ul>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>Topping(choose as many as you want)</legend>
+    <ul>
+        <li><input type="checkbox">Red sauce</li>
+        <li><input type="checkbox">white sauce</li>
+        <li><input type="checkbox">mozarella cheese</li>
+        <li><input type="checkbox">papperoni</li>
+        <li><input type="checkbox">mushroom</li>
+        <li><input type="checkbox">peppers</li>
+        <li><input type="checkbox">anchovies</li>
+    </ul>
+</fieldset>
+<p>Number</p>
+<label>How many pizza</label>
+<input type="number" min="1" max="6"><br>
+<input type="submit" value="Bring me pizza ">
+
+<input type="Reset">
+</form>
+</body>
+</html>
